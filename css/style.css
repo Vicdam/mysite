@@ -1,0 +1,352 @@
+#skill {
+  background-color: #202024;
+}
+
+body {
+  background-color: #202024;
+  color: #40514e;
+  margin: 0px;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  margin: 0 auto 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  font-weight: 500;
+  color: #66bfbf;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #11999e;
+  font-weight: normal;
+  line-height: 0;
+}
+
+h3 {
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+}
+
+p {
+  line-height: 2;
+  font-size: 1.3rem;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-color: #eaf6f6;
+  color: gray;
+  width: 4%;
+  border-width: 10px;
+}
+
+.profileicon{
+  margin-left: 10%;
+}
+
+.navbar{
+  background-color: #66bfbf;
+}
+
+.nav-link{
+  margin-left: 40px;
+}
+
+/* Top Container */
+
+.top-container {
+  background-color: #e0ebe8;
+  position: relative;
+  padding-top: 200px;
+}
+
+.top-cloud {
+  position: absolute;
+  bottom: 650px;
+  right: 300px;
+}
+
+.dev {
+  font-size: 1.5rem;
+}
+
+.topbuttonscont {
+  margin-top: 50px;
+}
+
+.topbuttons {
+  background: var(--secondary-grey);
+  border: 3px solid #66bfbf;
+  color: #66bfbf;
+  padding: 20px, 10px 20px, 10px;
+  font-size: 1em;
+  border-radius: 10px;
+  transition: 0.2s ease-in;
+  animation-duration: 1.6s;
+  text-align: center;
+  height: 50px;
+  width: 150px;
+}
+
+.portfolio {
+  margin-right: 30px;
+  background-color: #66bfbf;
+  color: #11999e;
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+}
+
+.portfolio:hover{
+  background-color: #e0ebe8;
+}
+
+.resume {
+  color: #11999e;
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+}
+
+.topsocial {
+  padding-top: 30px;
+}
+
+.social {
+  border-radius: 50%;
+  color: none;
+  color: #11999e;
+  font-family: "montserrrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.social:hover {
+  color: #66bfbf;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 350px;
+  bottom: 300px;
+}
+
+/* Middle Container */
+
+.profile {
+  margin: 50px auto 100px auto;
+  text-align: center;
+}
+
+.profile-picture {
+  width: 10%;
+  padding-bottom: 40px;
+}
+
+.intro {
+  font-size: 1.3rem;
+  margin: auto;
+  padding-top: 30px;
+  text-align: center;
+  width: 50%;
+}
+
+.skills {
+  margin-top: 100px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.img1 {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.img2 {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.img3 {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+/* Technologies */
+.tech{
+  padding-bottom: 20px;
+}
+
+.technologies{
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+
+.skillslogo{
+  width: 7%;
+  margin: 40px 40px 0px 40px
+}
+
+.node{
+  width: 13%;
+}
+
+/* Bottom Container */
+.contact{
+  width: 50%;
+  margin: 60px auto 80px auto;
+  text-align: center;
+}
+
+.create1{
+  margin-top: 40px;
+}
+/* Footer */
+
+.footer{
+  background-color: #202024;
+  color: bisque;
+  padding-top: 60px;
+}
+
+.footsocial {
+  color: #11999e;
+  font-family: "montserrrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.footsocial:hover {
+  color: #eaf6f6;
+}
+
+.copyright {
+  font-size: 0.8rem;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 0) and (max-width: 992px) {
+  h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    text-align: start;
+  }
+  
+  p {
+    line-height: 1.5;
+    font-size: 1.2rem;
+    width: 90%;
+  }
+ 
+  hr {
+    width: 15%;
+  }
+ 
+  .top-container {
+    background-color: #e0ebe8;
+    position: relative;
+    padding: 100px 0px 0px 0px;
+  }
+  
+  .top-cloud {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+  }
+
+  .dev {
+    margin-top: 0;
+  }
+
+  .bottom-cloud {
+    position: absolute;
+    left: 10px;
+    bottom: 150px;
+  }
+
+  .mountain {
+    width: 80%;
+  }
+
+  .hi{
+    text-align: center;
+  }
+
+  .intro {
+    font-size: 1.2rem;
+    margin: auto;
+    text-align: center;
+    width: 90%;
+  }
+
+  .skill-row {
+    margin: 90px auto 50px auto;
+    text-align: left;
+    width: 80%;
+  }
+
+  .contact-me{
+    margin:0;
+    text-align: center;
+    width: 85%;
+    justify-content: center;
+  }
+
+  .contact1{
+    position: relative;
+    padding: 50px 0px 0px 0px;
+  }
+
+  .create{
+    text-align: center;
+  }
+
+  .contactbtn{
+    margin-left: 70px;
+  }
+
+  .footsocial {
+    margin: 10px 10px;
+  }
+}
+
+
+/*.above{
+    background-color: blue;
+    width: 200px;
+    Height: 200px;
+    position: absolute;
+       
+}
+
+.bottom{
+    background-color: red;
+    width: 200px;
+    Height: 200px;
+    position: absolute;
+    left: 200px;
+    top: 750px 
+    
+  }
+
+.last{
+  background-color: green;
+  width: 200px;
+  Height: 200px;
+  position: absolute;
+  left: 400px;
+  top: 950px 
+ 
+}*/
